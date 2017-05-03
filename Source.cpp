@@ -29,7 +29,7 @@ int main(void) {
 
 void printGroupMemberNames() {
 	printf("Vichet Keng\n ");
-	printf("Name2\n ");
+	printf("Sowathana Yong\n ");
 	printf("Name3\n ");
 	printf("That's it!\n");
 }
