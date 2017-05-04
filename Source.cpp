@@ -30,7 +30,8 @@ int main(void) {
 void printGroupMemberNames() {
 	printf("Vichet Keng\n ");
 	printf("Sowathana Yong\n ");
-	printf("Name3\n ");
+	printf("SereyPunleur Sor\n ");
+	printf("Heng Toun Oeng\n ");
 	printf("That's it!\n");
 }
 
