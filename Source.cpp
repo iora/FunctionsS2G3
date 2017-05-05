@@ -44,3 +44,11 @@ int subtractAllValues(int myArray[]) {
     return result;
 }
 
+/*HengToun Oeng*/
+void printAsChars(int myArray[]) {
+    for (int i = 0; i < 500; i++) {
+        printf("%c ", myArray[i]);
+    }
+}
+
+
