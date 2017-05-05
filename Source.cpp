@@ -24,26 +24,7 @@ int main(void) {
 	return 1;
 }
 
-/*Sowathana Yong*/
-int getSumOfSquares(int myArray[]) {
 
-    int square = 1;
-    int sumOfSquare = 0;
-    for (int i = 0; i < 500; i++) {
-        square = myArray[i] * myArray[i];
-        sumOfSquare += square;
-    }
-    return sumOfSquare;
-}
-
-/*Sowathana Yong*/
-int getSum(int myArray[]) {
-    int sum = 0;
-    for (int i = 0; i < 500; ++i) {
-        sum += myArray[i];
-    }
-    return sum;
-}
 
 
 void printGroupMemberNames() {
@@ -55,7 +36,6 @@ void printGroupMemberNames() {
 }
 
 /*Vichet Keng*/
-
 int subtractAllValues(int myArray[]) {
     int result = 0;
     for (int i = 0; i < 500; i++) {
