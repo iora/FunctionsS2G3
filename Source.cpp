@@ -6,13 +6,13 @@
 *	Recommended: add description of your code.
 */
 
-int getSum(int myArray[]);
-int getSumOfSquares(int myArray[]);
-void printAsChars(int myArray[]);
-double getAverage(int myArray[]);
-int subtractAllValues(int myArray[]);
-float invertAllValues(int myArray[] );
-void printGroupMemberNames();
+int getSum(int myArray[]); //clear
+int getSumOfSquares(int myArray[]); //clear
+void printAsChars(int myArray[]); //clear
+double getAverage(int myArray[]); //clear
+int subtractAllValues(int myArray[]); //clear
+float invertAllValues(int myArray[] ); //clear
+void printGroupMemberNames(); //clear
 
 int main(void) {
 	printGroupMemberNames();
@@ -24,9 +24,7 @@ int main(void) {
 	return 1;
 }
 
-
-
-
+/*Sowathana Yong*/
 void printGroupMemberNames() {
 	printf("Vichet Keng\n ");
 	printf("Sowathana Yong\n ");
@@ -51,7 +49,6 @@ void printAsChars(int myArray[]) {
     }
 }
 
-
 /*SereyPunleur Sor*/
 float invertAllValues(int myArray[]) {
     for (int i = 0; i < 500; ++i) {
@@ -59,6 +56,33 @@ float invertAllValues(int myArray[]) {
     }
     return 0;
 }
+/*Sowathana Yong*/
+int getSumOfSquares(int myArray[]) {
 
+    int square = 1;
+    int sumOfSquare = 0;
+    for (int i = 0; i < 500; i++) {
+        square = myArray[i] * myArray[i];
+        sumOfSquare += square;
+    }
+    return sumOfSquare;
+}
 
+/*Sowathana Yong*/
+int getSum(int myArray[]) {
+    int sum = 0;
+    for (int i = 0; i < 500; ++i) {
+        sum += myArray[i];
+    }
+    return sum;
+}
+
+/*Sowathana Yong*/
+double getAverage(int myArray[]){
+    int sum = 0;
+    for (int i = 0; i < 500; ++i) {
+        sum += myArray[i];
+    }
+    return sum/500;
+}
 
