@@ -53,7 +53,6 @@ void printAsChars(int myArray[]) {
 
 
 /*SereyPunleur Sor*/
-
 float invertAllValues(int myArray[]) {
     for (int i = 0; i < 500; ++i) {
         myArray[i] = myArray[i] * -1;
