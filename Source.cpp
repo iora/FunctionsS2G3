@@ -36,7 +36,6 @@ void printGroupMemberNames() {
 }
 
 /*Vichet Keng*/
-
 int subtractAllValues(int myArray[]) {
     int result = 0;
     for (int i = 0; i < 500; i++) {
