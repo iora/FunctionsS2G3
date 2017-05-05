@@ -35,3 +35,12 @@ void printGroupMemberNames() {
 	printf("That's it!\n");
 }
 
+/*Vichet Keng*/
+int subtractAllValues(int myArray[]) {
+    int result = 0;
+    for (int i = 0; i < 500; i++) {
+        result -= myArray[i];
+    }
+    return result;
+}
+
