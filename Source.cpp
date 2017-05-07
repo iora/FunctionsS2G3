@@ -49,10 +49,13 @@ void printAsChars(int myArray[]) {
     }
 }
 
-/*SereyPunleur Sor*/
+//invertAllvalues fixed
+
 float invertAllValues(int myArray[]) {
+    float invert = 0;
     for (int i = 0; i < 500; ++i) {
-        myArray[i] = myArray[i] * -1;
+    	myArray[i] = invert;
+        invert = 1 / myArray[i];
     }
     return 0;
 }
