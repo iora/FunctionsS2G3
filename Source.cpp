@@ -49,8 +49,8 @@ void printAsChars(int myArray[]) {
     }
 }
 
+/*SereyPunleur Sor*/
 //invertAllvalues fixed
-
 float invertAllValues(int myArray[]) {
     float invert = 0;
     for (int i = 0; i < 500; ++i) {
@@ -80,12 +80,18 @@ int getSum(int myArray[]) {
     return sum;
 }
 
-/*Sowathana Yong*/
-double getAverage(int myArray[]){
-    int sum = 0;
-    for (int i = 0; i < 500; ++i) {
-        sum += myArray[i];
-    }
-    return sum/500;
+
+
+/* Sowathana Yong */
+// We all corrected it together
+double getAverage(int myArray[])
+{
+	double result = 0;
+	int x = 0;
+	for (int i = 0; i < 500; ++i) {
+		result += myArray[i];
+		x++;
+	}
+	return result / x;
 }
 
